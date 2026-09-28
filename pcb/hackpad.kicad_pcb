@@ -82,9 +82,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../production/")
 		)
 	)
 	(footprint "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
@@ -513,7 +513,7 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "${KIPRJMOD}/3d models/rotary encoder.STEP"
+		(model "/assets/3d models/rotary encoder.STEP"
 			(offset
 				(xyz 7.5 -2.5 0)
 			)
@@ -524,7 +524,7 @@
 				(xyz -0 -0 90)
 			)
 		)
-		(model "${KIPRJMOD}/3d models/Rotary Knob.step"
+		(model "/assets/3d models/Rotary Knob.step"
 			(offset
 				(xyz 8 -2 6.5)
 			)
@@ -827,7 +827,7 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "C:/Users/Shonu/Documents/hackapd/hackpad/3d models/r1 1u.step"
+		(model "/assets/3d models/r1 1u.step"
 			(offset
 				(xyz -3 -5.5 9.5)
 			)
@@ -838,7 +838,7 @@
 				(xyz -90 -0 -90)
 			)
 		)
-		(model "C:/Users/Shonu/Documents/keyboard/3d models/switches.STEP"
+		(model "/assets/3d models/switches.STEP"
 			(offset
 				(xyz -2.5 -4 0)
 			)
@@ -1131,6 +1131,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1141,7 +1142,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/Shonu/Documents/hackapd/hackpad/3d models/switches.STEP"
+		(model "/assets/3d models/switches.STEP"
 			(offset
 				(xyz -2.5 -4 0)
 			)
@@ -1152,7 +1153,7 @@
 				(xyz -90 -0 -0)
 			)
 		)
-		(model "C:/Users/Shonu/Documents/keyboard/3d models/r1/r1 1u.step"
+		(model "/assets/3d models/r1 1u.step"
 			(offset
 				(xyz -2.5 -5.5 9.5)
 			)
@@ -1445,6 +1446,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1455,7 +1457,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/3d models/switches.STEP"
+		(model "/assets/3d models/switches.STEP"
 			(offset
 				(xyz -2.5 -4 0)
 			)
@@ -1466,7 +1468,7 @@
 				(xyz -90 -0 -0)
 			)
 		)
-		(model "${KIPRJMOD}/3d models/r1 1u.step"
+		(model "/assets/3d models/r1 1u.step"
 			(offset
 				(xyz -2 -5 10)
 			)
@@ -1474,7 +1476,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -180)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -1769,7 +1771,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/Shonu/Documents/hackapd/hackpad/3d models/switches.STEP"
+		(model "/assets/3d models/switches.STEP"
 			(offset
 				(xyz -2.5 -4 0)
 			)
@@ -1780,7 +1782,7 @@
 				(xyz -90 -0 -0)
 			)
 		)
-		(model "C:/Users/Shonu/Documents/keyboard/3d models/r1/r1 1u.step"
+		(model "/assets/3d models/r1 1u.step"
 			(offset
 				(xyz -2.5 -5.5 9.5)
 			)
@@ -2372,7 +2374,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/3d models/Seeeduino Xiao.step"
+		(model "assets/3d models/Seeeduino Xiao.step"
 			(offset
 				(xyz -3 38.5 7.5)
 			)
