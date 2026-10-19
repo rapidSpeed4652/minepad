@@ -2,6 +2,7 @@
 
 # MinePad
 Minepad is a 4 key macropad with a rotary encoder. It uses VIAL, which is a fork of QMK firmware.
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/rapidSpeed4652/minepad/tree/main/pcb)
 
 ## Features
 - 4 Cherry-MX keys
