@@ -1797,14 +1797,14 @@
 	(footprint "RF_Module:MCU_Seeed_ESP32C3"
 		(layer "B.Cu")
 		(uuid "442268ce-414a-4b91-ae77-3975e3c87937")
-		(at 140.1 76.6 90)
+		(at 139.96 76.73 90)
 		(descr "ESP32C3 Seeed Xiao RF Wifi Shield (https://www.seeedstudio.com/blog/wp-content/uploads/2022/08/Seeed-Studio-XIAO-Series-Package-and-PCB-Design.pdf)")
 		(tags "wifi bluetooth microcontroller")
 		(property "Reference" "U1"
-			(at 7 12 270)
+			(at 12.6 6.9 270)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "570e05bf-0db2-4a7a-86ad-660e0e0d8161")
+			(uuid "a01fda83-5b9b-4715-9f25-187296044a0c")
 			(effects
 				(font
 					(size 1 1)
@@ -1817,7 +1817,7 @@
 			(at 0 -1 270)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "45b7f15e-1c16-4aa3-aafb-0ae412fc891a")
+			(uuid "02c40b34-4278-49a3-a4ad-a40f046a43fe")
 			(effects
 				(font
 					(size 1 1)
@@ -1831,7 +1831,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "31675af5-53b1-4b55-89e5-843ffbccb19e")
+			(uuid "c1a22838-96b5-4c24-95a5-fd0209b5179f")
 			(effects
 				(font
 					(size 1 1)
@@ -1845,7 +1845,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5d99b4b7-c186-4514-ace2-623d88f8b272")
+			(uuid "0ac242a9-e63d-4811-a8e2-2e8fe80557f0")
 			(effects
 				(font
 					(size 1 1)
@@ -2388,7 +2388,7 @@
 	)
 	(gr_rect
 		(start 107 49.5)
-		(end 153.5 108.5)
+		(end 150.5 108.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2398,60 +2398,68 @@
 		(uuid "b2015edd-6b7b-4fdc-bda4-25f86080bd2e")
 	)
 	(segment
-		(start 150 89.13137)
-		(end 144.76637 94.365)
+		(start 134.88 85.23)
+		(end 134.88 89.685685)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(U1-PA9_A5_D5_SCL)")
-		(uuid "05ede8bb-f533-4af2-96aa-6c8660ea2314")
+		(uuid "026812f7-d0d7-4a6f-a40c-5199cba868da")
 	)
 	(segment
-		(start 138.540101 94.365)
-		(end 135.02 90.844899)
+		(start 113.334314 101.9)
+		(end 110.6 99.165685)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(U1-PA9_A5_D5_SCL)")
-		(uuid "296efd15-d769-4e1a-9164-6a2fcfde8217")
+		(uuid "1f2b1349-912d-461e-84e2-9ecfd9cd0072")
 	)
 	(segment
-		(start 128.525 55.375)
-		(end 140.940685 55.375)
+		(start 122.665685 101.9)
+		(end 113.334314 101.9)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(U1-PA9_A5_D5_SCL)")
-		(uuid "2c0826e0-dc72-488f-be97-c019ddba03c3")
+		(uuid "226f31fc-326c-4397-91b3-93be370a45a4")
 	)
 	(segment
-		(start 150 64.434315)
-		(end 150 89.13137)
+		(start 110.6 55.9)
+		(end 113.335 53.165)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(U1-PA9_A5_D5_SCL)")
-		(uuid "51131612-afd6-46ff-96e8-eb0a261d42c5")
+		(uuid "31179c6f-3828-4a2f-a941-f9ebdd9b3c64")
 	)
 	(segment
-		(start 140.940685 55.375)
-		(end 150 64.434315)
+		(start 113.335 53.165)
+		(end 126.315 53.165)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(U1-PA9_A5_D5_SCL)")
-		(uuid "657ffe37-fbde-43c1-9d62-25699f411df8")
+		(uuid "55384176-3389-463f-9ebb-be69e4c5a7d9")
 	)
 	(segment
-		(start 135.02 90.844899)
-		(end 135.02 85.1)
+		(start 134.88 89.685685)
+		(end 122.665685 101.9)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(U1-PA9_A5_D5_SCL)")
-		(uuid "892125ea-0e54-46fc-a973-3354a71091c6")
+		(uuid "695ce914-73d5-474d-8462-8f88a16b4cc2")
 	)
 	(segment
-		(start 144.76637 94.365)
-		(end 138.540101 94.365)
+		(start 126.315 53.165)
+		(end 128.525 55.375)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(U1-PA9_A5_D5_SCL)")
-		(uuid "c0552075-78d5-41b3-a4a6-a462ad72ea7b")
+		(uuid "911962c9-58df-4159-b211-1f5aac4e5cb2")
+	)
+	(segment
+		(start 110.6 99.165685)
+		(end 110.6 55.9)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(U1-PA9_A5_D5_SCL)")
+		(uuid "dced6f7d-0f22-4168-954a-59f2c744c294")
 	)
 	(segment
 		(start 121.715 53.565)
@@ -2791,7 +2799,7 @@
 	)
 	(zone
 		(layer "Edge.Cuts")
-		(uuid "4bcfd2c1-6eed-4b96-a8dc-2865b2f31463")
+		(uuid "c69476a6-d518-48f8-acaa-122a3eeccd99")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0.5)
@@ -2804,17 +2812,19 @@
 		)
 		(polygon
 			(pts
-				(xy 107 49.5) (xy 107 108.5) (xy 153.5 108.5) (xy 153.5 49.5)
+				(xy 107 49.5) (xy 107 108.5) (xy 150.5 108.5) (xy 150.5 81) (xy 149.5 81) (xy 149.5 72.5) (xy 150.5 72.5)
+				(xy 150.5 49.5)
 			)
 		)
 		(filled_polygon
 			(layer "Edge.Cuts")
 			(island yes)
 			(pts
-				(xy 153.443039 49.519685) (xy 153.488794 49.572489) (xy 153.5 49.624) (xy 153.5 108.376) (xy 153.480315 108.443039)
-				(xy 153.427511 108.488794) (xy 153.376 108.5) (xy 107.124 108.5) (xy 107.056961 108.480315) (xy 107.011206 108.427511)
-				(xy 107 108.376) (xy 107 49.624) (xy 107.019685 49.556961) (xy 107.072489 49.511206) (xy 107.124 49.5)
-				(xy 153.376 49.5)
+				(xy 150.443039 49.519685) (xy 150.488794 49.572489) (xy 150.5 49.624) (xy 150.5 72.376) (xy 150.480315 72.443039)
+				(xy 150.427511 72.488794) (xy 150.376 72.5) (xy 149.5 72.5) (xy 149.5 81) (xy 150.376 81) (xy 150.443039 81.019685)
+				(xy 150.488794 81.072489) (xy 150.5 81.124) (xy 150.5 108.376) (xy 150.480315 108.443039) (xy 150.427511 108.488794)
+				(xy 150.376 108.5) (xy 107.124 108.5) (xy 107.056961 108.480315) (xy 107.011206 108.427511) (xy 107 108.376)
+				(xy 107 49.624) (xy 107.019685 49.556961) (xy 107.072489 49.511206) (xy 107.124 49.5) (xy 150.376 49.5)
 			)
 		)
 	)
